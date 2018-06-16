@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uploadbg">
+
+    <TextView
+        android:id="@+id/AboutUS_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="About Us :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AboutUS_text"
+        android:layout_marginTop="40dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_weight="4"
+        android:fontFamily="casual"
+        android:text="   ~NoteSync is a file sharing application especially designed for Teacher and Students.
+     ~The main purpose of this appliaction is to make sharing of files easy and efficient.
+     ~In this application,there are two parts, one is for Teachers and Other is for Student.~Teachers can upload files using application, that files will directly get uploaded to web server.
+     ~And Students can download that files, also students can view downloaded files without internet connection."
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

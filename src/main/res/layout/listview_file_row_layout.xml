@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/imageView2"
+            android:layout_weight="0.15"
+            android:background="@drawable/listviewlogo" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/tvFileUrl"
+                android:hint="Selected File URL" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/tvFileName"
+                android:hint="File Name" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/tvSubName"
+                android:hint="Subject Name" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/tvSubCode"
+                android:hint="Subject Code" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

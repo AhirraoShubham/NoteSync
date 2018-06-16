@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NoteSync</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_aboutus">About Us</string>
+    <string name="tvNewUser">New User..?</string>
+    <string-array name="spinnerClass">
+        <item>Select Your Class</item>
+        <item>MCS-1</item>
+        <item>MCS-2</item>
+        <item>MCA-1</item>
+        <item>MCA-2</item>
+        <item>MCA-3</item>
+    </string-array>
+    <string-array name="spinnerSubName">
+        <item>--Select Your Subject--</item>
+        <item>Digital_Image_Processing</item>
+        <item>Advanced_Operating_System</item>
+        <item>Data_Mining_and_Data_Warehousing</item>
+        <item>Programing_with_Dot_Net</item>
+        <item>Artificial_Intelligence</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.downmanager.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/download">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvFileUrl" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvFileName" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvFileSubName" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvFileSubCode" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:onClick="downloadFile"
+        android:text="Download"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnBack"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/txtmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff1111"
+        android:textSize="15sp"
+        android:padding="15dp"
+        />
+
+</LinearLayout>

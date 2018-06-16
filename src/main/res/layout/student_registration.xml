@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp"
+    android:background="@drawable/registration"
+    android:baselineAligned="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/StudRegistration">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="-: Student Registration :-"
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:fontFamily="cursive"
+                android:textColor="#f60bd3"
+                android:focusable="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/etRollNo"
+                android:hint="Enter Roll No"
+                android:maxLength="3"
+                android:layout_margin="3dp"
+                android:selectAllOnFocus="false"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etFname"
+                android:hint="First Name"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etMname"
+                android:hint="Middle Name"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etLname"
+                android:hint="Last Name"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinnerClass"
+                android:id="@+id/spinnerClass"
+                android:layout_margin="3dp"
+                android:textAlignment="center"
+                android:textStyle="bold|italic"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/etEmail"
+                android:hint="Email "
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/etMob"
+                android:hint="Mobile Number"
+                android:maxLength="10"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPassword"
+                android:hint="Password"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"
+                android:maxLength="8" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRePassword"
+                android:hint="Re-Enter Password"
+                android:layout_margin="3dp"
+                android:textStyle="bold|italic"
+                android:maxLength="8" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/btnSubmit"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Register..?click here"
+                android:id="@+id/tvLogin"
+                android:textColor="#3606f3"
+                android:textSize="20dp"
+                android:layout_margin="3dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

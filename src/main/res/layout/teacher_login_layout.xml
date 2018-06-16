@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme"
+    android:focusable="true"
+    android:theme="@style/AppTheme"
+    android:touchscreenBlocksFocus="true"
+    android:padding="10dp"
+    android:background="@drawable/login">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Teacher Login"
+        android:fontFamily="cursive"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45dp"
+        android:textColor="#f60bd3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter Your Email...." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Your Password.."
+        android:maxLength="8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:elegantTextHeight="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="New User..?Click here"
+        android:id="@+id/tvNewUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:longClickable="false"
+        android:linksClickable="false"
+        android:textColor="#130bf2"
+        android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
