@@ -200,7 +200,8 @@ public class UploadActivity extends Activity implements AdapterView.OnItemSelect
         protected String doInBackground(String... params) {
             try {
                 easyFTP ftp = new easyFTP();
-                ftp.connect("93.188.160.122", "u821186409", "Shubh@m18");
+                //Enter Your Username and Password before run
+                ftp.connect("93.188.160.122", "Enter your username", "Enter Your Password Here");
                 boolean status = false;
                 status = ftp.setWorkingDirectory("files"); // if User say provided any Destination then Set it , otherwise
                 // Upload will be stored on Default /root level on server
